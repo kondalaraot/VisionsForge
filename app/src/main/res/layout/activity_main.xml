@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.visionsforge.MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/BG_First_menu_after_intro"
+
+           />
+
+        <LinearLayout
+            android:gravity="right"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="right|center_vertical">
+
+            <Button
+                android:id="@+id/tv_coach"
+                android:text="Coach"
+                style="@style/MenuButtonStyle"
+                />
+
+            <Button
+                android:id="@+id/btn_search"
+                style="@style/MenuButtonStyle"
+                android:text="Search"
+
+                />
+            <Button
+                android:id="@+id/btn_build"
+                style="@style/MenuButtonStyle"
+                android:text="Build"
+                />
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
+</LinearLayout>
