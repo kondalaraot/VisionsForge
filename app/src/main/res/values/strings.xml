@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">VisionsForge</string>
+    <string name="title_activity_coach">CoachActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_build">BuildActivity</string>
+    <string name="title_activity_specify_desir_qua">SpecifyDesirQuaActivity</string>
 </resources>

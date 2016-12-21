@@ -17,13 +17,45 @@
 
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+<!--
         <item name="android:textSize">25sp</item>
-        <item name="android:layout_marginTop">15dip</item>
-        <item name="android:gravity">right</item>
+-->
+
         <item name="android:background">@android:color/transparent</item>
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@color/titleColor</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+
+        <item name="android:layout_margin">10dp</item>
+
+    </style>
+
+    <style name="HomeButtonStyle" parent="android:style/Widget.Button">
+
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">90dp</item>
+<!--
+        <item name="android:textSize">25sp</item>
+-->
+
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/titleColor</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginRight">15dp</item>
+
+    </style>
+
+    <style name="TitleTextViewStyle" parent="android:Widget.TextView">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25sp</item>
+
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/titleColor</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:layout_margin">20dp</item>
+        <item name="android:layout_margin">10dp</item>
 
     </style>
 

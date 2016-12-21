@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center_vertical"
+
+    tools:context="com.visionsforge.SearchActivity">
+
+
+    <FrameLayout
+        android:layout_width="973px"
+        android:layout_height="720px">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/search"
+
+            />
+
+        <AbsoluteLayout
+            android:gravity="right"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_height="wrap_content"
+            >
+
+
+
+                <Button
+                    android:id="@+id/btn_updates"
+                    style="@style/MenuButtonStyle"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="170px"
+                    android:layout_height="100px"
+                    android:layout_x="40px"
+                    android:layout_y="150px"
+                    />
+
+                <Button
+                    android:id="@+id/btn_back"
+                    style="@style/MenuButtonStyle"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="150px"
+                    android:layout_height="100px"
+                    android:text=""
+                    android:layout_x="800px"
+                    android:layout_y="145px"
+
+                    />
+
+
+            <Button
+                android:id="@+id/btn_3d_models"
+                style="@style/MenuButtonStyle"
+                android:layout_gravity="left"
+                android:layout_width="200px"
+                android:layout_height="100px"
+                android:text=""
+                android:layout_x="40px"
+                android:layout_y="300px"
+                />
+
+
+
+                <Button
+                    android:id="@+id/btn_community"
+                    android:text=""
+                    style="@style/MenuButtonStyle"
+                    android:layout_alignParentLeft="true"
+                    android:layout_width="170px"
+                    android:layout_height="100px"
+                    android:layout_x="40px"
+                    android:layout_y="450px"
+                    />
+
+                <Button
+                    android:id="@+id/btn_home"
+                    style="@style/MenuButtonStyle"
+                    android:layout_width="170px"
+                    android:layout_height="100px"
+                    android:text=""
+                    android:layout_x="800px"
+                    android:layout_y="450px"
+                    />
+
+
+
+
+        </AbsoluteLayout>
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

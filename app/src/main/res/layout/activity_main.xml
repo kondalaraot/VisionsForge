@@ -2,48 +2,94 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+     android:layout_gravity="center_horizontal|center_vertical"
     tools:context="com.visionsforge.MainActivity">
 
 
     <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
+        android:layout_width="973px"
+        android:layout_height="720px">
         <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/BG_First_menu_after_intro"
-
-           />
-
-        <LinearLayout
-            android:gravity="right"
-            android:orientation="vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="15dp"
-            android:layout_gravity="right|center_vertical">
+            android:src="@drawable/homescreen"
+            android:layout_gravity="center_vertical|center_horizontal"
+
+            />
+
+        <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/tv_coach"
-                android:text="Coach"
-                style="@style/MenuButtonStyle"
-                />
-
+                android:id="@+id/btn_coach"
+                android:background="@android:color/transparent"
+                android:text=""
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_x="600px"
+                android:layout_y="100px" />
             <Button
                 android:id="@+id/btn_search"
-                style="@style/MenuButtonStyle"
-                android:text="Search"
+                android:background="@android:color/transparent"
 
-                />
+                android:layout_width="150dp"
+                android:layout_height="100px"
+                android:text=""
+                android:layout_x="600px"
+                android:layout_y="290px" />
+
             <Button
                 android:id="@+id/btn_build"
-                style="@style/MenuButtonStyle"
-                android:text="Build"
-                />
-        </LinearLayout>
+                android:background="@android:color/transparent"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_x="600px"
+                android:layout_y="450px" />
+
+        </AbsoluteLayout>
+
+
+
+        <!--  <LinearLayout
+              android:gravity="right"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginRight="65dp"
+              android:layout_marginBottom="45dp"
+              android:layout_gravity="right|center_vertical">
+
+              <Button
+                  android:id="@+id/btn_coach"
+                  android:text="Coach"
+                  style="@style/HomeButtonStyle"
+                  android:textSize="25sp"
+
+
+                  />
+
+              <Button
+                  android:id="@+id/btn_search"
+                  style="@style/HomeButtonStyle"
+                  android:text="Search"
+                  android:textSize="25sp"
+                  android:layout_marginTop="90dp"
+                  android:layout_marginBottom="60dp"
+
+                  />
+              <Button
+                  android:id="@+id/btn_build"
+                  style="@style/HomeButtonStyle"
+                  android:text="Build"
+                  android:textSize="25sp"
+
+                  />
+          </LinearLayout>-->
 
     </FrameLayout>
 

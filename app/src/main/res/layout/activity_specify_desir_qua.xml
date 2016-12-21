@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center_vertical"
+    tools:context="com.visionsforge.CoachActivity">
+
+
+    <FrameLayout
+        android:layout_width="973px"
+        android:layout_height="720px">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/main_00120"
+
+            />
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btn_daft"
+                style="@style/MenuButtonStyle"
+                android:layout_alignParentLeft="true"
+                android:text=""
+                android:layout_width="180px"
+                android:layout_height="100px"
+                android:layout_x="40px"
+                android:layout_y="220px"
+                />
+
+            <Button
+                android:id="@+id/btn_back"
+                style="@style/MenuButtonStyle"
+                android:layout_alignParentRight="true"
+                android:layout_width="150px"
+                android:layout_height="100px"
+                android:text=""
+                android:layout_x="800px"
+                android:layout_y="200px"
+                />
+
+            <Button
+                android:id="@+id/btn_medium"
+                style="@style/MenuButtonStyle"
+                android:layout_gravity="center_horizontal"
+                android:text=""
+                android:layout_width="210px"
+                android:layout_height="100px"
+                android:layout_x="370px"
+                android:layout_y="300px"
+                />
+
+            <Button
+                android:id="@+id/btn_good"
+                style="@style/MenuButtonStyle"
+                android:layout_gravity="left"
+                android:text=""
+                android:layout_width="180px"
+                android:layout_height="100px"
+                android:layout_x="45px"
+                android:layout_y="370px"
+                />
+
+            <Button
+                android:id="@+id/btn_vgood"
+                style="@style/MenuButtonStyle"
+                android:layout_gravity="center_horizontal"
+                android:text=""
+                android:layout_width="200px"
+                android:layout_height="100px"
+                android:layout_x="420px"
+                android:layout_y="450px"
+                />
+
+            <Button
+                android:id="@+id/btn_altra"
+                style="@style/MenuButtonStyle"
+                android:layout_alignParentLeft="true"
+                android:text=""
+                android:layout_width="150px"
+                android:layout_height="100px"
+                android:layout_x="45px"
+                android:layout_y="520px"
+                />
+
+            <Button
+                android:id="@+id/btn_home"
+                style="@style/MenuButtonStyle"
+                android:layout_alignParentRight="true"
+                android:text=""
+                android:layout_width="170px"
+                android:layout_height="100px"
+                android:layout_x="800px"
+                android:layout_y="510px"
+
+                />
+
+
+        </AbsoluteLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>

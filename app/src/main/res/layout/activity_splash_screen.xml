@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center_vertical"
+    >
+
+    <FrameLayout
+        android:layout_width="973px"
+        android:layout_height="720px">
+
+    <ImageView
+        android:background="@drawable/bg_all_other_screens"
+        android:id="@+id/IVloadinganimation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        />
+    </FrameLayout>
+
+   <!-- <ImageView
+        android:id="@+id/iclogo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/bg_all_other_screens"
+        android:adjustViewBounds="true"
+        />
+-->
+
+</LinearLayout>
