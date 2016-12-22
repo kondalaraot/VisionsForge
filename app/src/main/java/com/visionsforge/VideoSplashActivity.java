@@ -3,11 +3,9 @@ package com.visionsforge;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.content.res.Configuration;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
-import android.view.WindowManager;
 
 public class VideoSplashActivity extends Activity {
 
@@ -22,7 +20,7 @@ public class VideoSplashActivity extends Activity {
 //            vidHolder = new VideoView(this);
             vidHolder = (MyVideoView) findViewById(R.id.myvideo);
 //            setContentView(vidHolder);
-            Uri video = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.video_vf);
+            Uri video = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.mpeg);
             vidHolder.setVideoURI(video);
 //            vidHolder.setZOrderOnTop(true);
             vidHolder.requestFocus();
@@ -48,7 +46,7 @@ public class VideoSplashActivity extends Activity {
         finish();
     }
 
-    @Override
+   /* @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
         if (null == vidHolder) return;
@@ -71,7 +69,7 @@ public class VideoSplashActivity extends Activity {
             vidHolder.getLayoutParams().width = (int) width;
         }
     }
-
+*/
     public static final float getHeightInPx(Context context) {
         final float height = context.getResources().getDisplayMetrics().heightPixels;
         return height;
