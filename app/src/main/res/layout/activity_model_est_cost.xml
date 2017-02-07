@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center_vertical"
+
+    tools:context="com.visionsforge.CoachActivity">
+
+
+    <FrameLayout
+        android:layout_width="973px"
+        android:layout_height="720px">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/bg_all_other_screens" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Amount of Resin :      0.12 liters"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                android:textColor="@color/titleColor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Estimated Duration : 2 hrs 50 min."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                android:textColor="@color/titleColor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Cost of production :   $3,90"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                android:textColor="@color/titleColor" />
+
+        </LinearLayout>
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="280px"
+                android:layout_height="150px"
+                android:layout_x="700px"
+                android:layout_y="10px"
+                android:text="Back"
+
+                />
+
+            <Button
+
+                android:id="@+id/btn_home"
+                android:layout_width="280px"
+                android:layout_height="150px"
+                android:layout_x="700px"
+                android:layout_y="250px"
+                android:text="Home"
+
+                />
+
+            <Button
+                android:id="@+id/btn_proceed"
+                android:layout_width="280px"
+                android:layout_height="150px"
+                android:layout_x="700px"
+                android:layout_y="500px"
+                android:text="Proceed"
+                />
+        </AbsoluteLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>

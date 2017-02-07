@@ -42,8 +42,9 @@
             android:name=".BuildActivity"
             android:label="@string/title_activity_build"
             android:screenOrientation="landscape" />
-        <activity android:name=".Choose3DModelActivity"
-            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".Choose3DModelActivity"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".SpecifyDesirQuaActivity"
             android:label="@string/title_activity_specify_desir_qua"
@@ -54,9 +55,16 @@
         <activity
             android:name=".SDCardActivity"
             android:screenOrientation="landscape" />
-        <!--
-                <activity android:name=".VideoSplashActivity"></activity>
-        -->
+        <!-- <activity android:name=".VideoSplashActivity"></activity> -->
+        <activity
+            android:name=".ModelEstCostActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ZAxisTestActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".CountDownTimerActivity"
+            android:screenOrientation="landscape"
+            ></activity>
     </application>
 
 </manifest>

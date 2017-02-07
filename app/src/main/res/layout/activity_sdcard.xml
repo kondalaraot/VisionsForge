@@ -14,6 +14,7 @@
         android:layout_height="720px">
 
         <ImageView
+            android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/sd_card_h_b"
@@ -28,43 +29,34 @@
             android:layout_height="wrap_content"
             >
 
-
-
-
-
-
             <Button
-                android:id="@+id/btn_back"
-                style="@style/MenuButtonStyle"
-                android:layout_width="150px"
-                android:layout_height="100px"
-                android:text=""
-                android:layout_x="800px"
-                android:layout_y="145px"
+                android:id="@+id/btn_prev"
+                android:layout_width="290px"
+                android:layout_height="150px"
+                android:text="Previous"
+                android:layout_x="10px"
+                android:layout_y="500px"
 
                 />
 
-
-
-
-
-
-
             <Button
-                android:id="@+id/btn_home"
-                style="@style/MenuButtonStyle"
-                android:layout_width="170px"
-                android:layout_height="100px"
-                android:text=""
-                android:layout_x="800px"
+                android:id="@+id/btn_chose_model"
+                android:layout_width="300px"
+                android:layout_height="200px"
+                android:text="Choose \n Model"
+                android:layout_x="350px"
                 android:layout_y="450px"
 
                 />
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="250px"
+                android:layout_height="150px"
+                android:text="Next"
+                android:layout_x="720px"
+                android:layout_y="500px"
 
-
-
-
-
+                />
         </AbsoluteLayout>
 
     </FrameLayout>

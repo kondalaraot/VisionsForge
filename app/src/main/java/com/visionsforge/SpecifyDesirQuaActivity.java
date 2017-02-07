@@ -70,10 +70,15 @@ public class SpecifyDesirQuaActivity extends Activity implements View.OnClickLis
         } else if ( v == mBtnMedium ) {
             // Handle clicks for mBtnMedium
 //            launchWeb();
+            Intent a = new Intent(this,ModelEstCostActivity.class);
+            a.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(a);
         } else if ( v == mBtnGood ) {
             // Handle clicks for mBtnGood
 //            launchWeb();
-
+            Intent a = new Intent(this,ModelEstCostActivity.class);
+            a.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(a);
         } else if ( v == mBtnVgood ) {
             // Handle clicks for mBtnVgood
 //            launchWeb();
